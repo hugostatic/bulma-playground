@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"> 
+  </head>
+  <body>
+    <section class="hero is-primary is-fullheight">
+      <!--  hero-body assure le centrage vertical   -->  
+      <div class="hero-body">
+        <!--    container assure que le contenu ne touche pas les bords de la page  -->    
+        <div class="container">
+            <!--    wrapper pour la colonne    -->    
+            <div class="columns is-centered">
+                <!-- limite la largeur du wrapper 5/12 tablet(+769px) 4/12 desktop (+1024px) 3/12 widescreen (+1216px)  -->
+                <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                    <!--    La boite a par défaut un fond blanc et une ombre    -->
+                    <form action="" class="box">
+                        <div class="field has-text-centered">
+                          <img src="images/logo-bis.png" alt="logo" width="167">
+                        </div>
+                        <div class="field">
+                        <!--  label assure que le texte est gras et ajoute un espace en bas--> 
+                          <label class="label">Email</label>
+                          <!--  control est un wrapper pour les input et permet l'ajout d'icônes  -->
+                          <div class="control has-icons-left">
+                            <input class="input" type="email" placeholder="e.g. alexjohn@gmail.com" required>
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-envelope"></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="field">
+                        <!--  label assure que le texte est gras et ajoute un espace en bas--> 
+                          <label class="label">Password</label>
+                          <!--  control est un wrapper pour les input et permet l'ajout d'icônes  -->
+                          <div class="control has-icons-left">
+                            <input class="input" type="password" placeholder="********" required>
+                            <span class="icon is-small is-left">
+                              <i class="fa fa-lock"></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label class="checkbox">
+                            <input type="checkbox">
+                            Remember me 
+                          </label>
+                        </div>
+                        <div class="field">
+                          <button class="button is-success">
+                            Login
+                          </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body> 
+</html>
