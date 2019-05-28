@@ -1,3 +1,11 @@
 .navbar-dropdown .icon {
     padding-right: 10px;
 }
+
+/* Style pour le logo dans la section hero */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
