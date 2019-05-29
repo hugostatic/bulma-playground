@@ -1,8 +1,10 @@
+/* styles pour la page books */
+
 .navbar-dropdown .icon {
     padding-right: 10px;
 }
 
-/* Style pour le logo dans la section hero */
+/* Styles pour le logo dans la section hero de la page index */
 
 .center {
     display: flex;
@@ -17,4 +19,24 @@
 
 .emoticon { 
     white-space: pre; 
+}
+
+/* Styles pour le blog */
+
+.is-paddingless-horizontal { 
+    padding-left: 0; 
+    padding-right: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns:
+		[xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+}
+
+.grid *  {
+     grid-column: md; 
+}
+.grid-xl { 
+    grid-column: xl; 
 }

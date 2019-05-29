@@ -1,8 +1,11 @@
 # Bulma Playground
 
-- Étape 1 : Créer une page login avec un formulaire
-- Étape 2 : Mise en place de la navigation.  
-- Étape 3 : Grille et composants 
+- Projet 1 : Une page d'accueil 
+
+![enter image description here](https://s3.amazonaws.com/media-p.slid.es/uploads/975796/images/6191340/Screenshot_2019-05-29_Hello_Bulma__1_.png =512x)
+
+- Projet 2 : Une page de blog
+
 
 
 <a href="https://bulma.io">
