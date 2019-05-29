@@ -9,3 +9,12 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.hero img {
+    max-width: 160px;
+}
+
+.emoticon { 
+    white-space: pre; 
+}
